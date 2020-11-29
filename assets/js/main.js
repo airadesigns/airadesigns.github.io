@@ -31,7 +31,7 @@
         });
 
         $container.isotope({
-            filter: 'handpicked'
+            filter: '.handpicked'
         });
 
         $('#filters').on('click', 'a', function(e) {
