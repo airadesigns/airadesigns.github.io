@@ -45,21 +45,23 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Me</a></li>
                         <li><a href="services.html">Services</a></li>
-                        <li class="active"><a href="index.html">My Works</a></li>
+                        <li class="active"><a href="works.html">My Works</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-md-6 d-none d-md-block  mr-auto">
                     <div class="tweet d-flex">
-                        <span class="icofont-twitter text-white mt-2 mr-3"></span>
-                        <div>
-                            <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis explicabo inventore. <br> <a href="#">t.co/v82jsk</a></em></p>
-                        </div>
+                        <!--<span class="icofont-twitter text-white mt-2 mr-3"></span>
+                            <div>
+                                <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis explicabo inventore. <br> <a href="#">t.co/v82jsk</a></em></p>
+                            </div>-->
                     </div>
                 </div>
                 <div class="col-md-4 d-none d-md-block">
-                    <h3>Hire Me</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiisexplicabo inventore. <br> <a href="#">myemail@gmail.com</a></p>
+                    <h3>Please get-in-touch for your creative works</h3>
+                    <p><br><a href="mailto:prasathvfx@gmail.com">prasathvfx@gmail.com</a></p>
+                    <!--<h3>Hire Me</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiisexplicabo inventore. <br> <a href="#">myemail@gmail.com</a></p>-->
                 </div>
             </div>
 
@@ -84,81 +86,684 @@
             <div class="container">
                 <div class="row mb-5 align-items-center">
                     <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-                        <h2>Hey, I'm Johan Stanworth</h2>
+                        <h2>Hey, I'm Prasath Gowtham</h2>
                         <p class="mb-0">Freelance Creative &amp; Professional Graphics Designer</p>
                     </div>
                     <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
                         <div id="filters" class="filters">
-                            <a href="#" data-filter="*" class="active">All</a>
-                            <a href="#" data-filter=".web">Web</a>
-                            <a href="#" data-filter=".design">Design</a>
-                            <a href="#" data-filter=".branding">Branding</a>
-                            <a href="#" data-filter=".photography">Photography</a>
+                            <a href="#" id="_handpicked" data-filter=".handpicked" class="active">My Works</a> [
+                            <a href="#" id="_apparels" data-filter=".apparel">Apparels</a>,
+                            <a href="#" id="_arts" data-filter=".art">Digital Arts</a>,
+                            <a href="#" id="_invitations" data-filter=".invitation">Invitations</a>,
+                            <a href="#" id="_letterings" data-filter=".lettering">Letterings</a>,
+                            <a href="#" id="_logos" data-filter=".logo">Logos</a>,
+                            <a href="#" id="_graphics" data-filter=".graphic">Motion Graphics</a>,
+                            <a href="#" id="_posters" data-filter=".poster">Posters</a>,
+                            <a href="#" id="_socials" data-filter="._social">Socials</a>]
                         </div>
                     </div>
                 </div>
                 <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-                    <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-                        <a href="work-single.html" class="item-wrap fancybox">
+                    <div class="item handpicked col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox" onclick="$('#_apparels').trigger('click');">
                             <div class="work-info">
-                                <h3>Boxed Water</h3>
-                                <span>Web</span>
+                                <h3>Apparel Desings</h3>
+                                <span>Click to see more</span>
                             </div>
-                            <img class="img-fluid" src="assets/img/img_1.jpg">
+                            <img class="img-fluid" src="assets/img/apparels/apparel1.jpg">
                         </a>
                     </div>
-                    <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-                        <a href="work-single.html" class="item-wrap fancybox">
+                    <div class="item handpicked col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox" onclick="$('#_arts').trigger('click');">
                             <div class="work-info">
-                                <h3>Build Indoo</h3>
-                                <span>Photography</span>
+                                <h3>Digital Arts</h3>
+                                <span>Click to see more</span>
                             </div>
-                            <img class="img-fluid" src="assets/img/img_2.jpg">
+                            <img class="img-fluid" src="assets/img/arts/art1.jpg">
                         </a>
                     </div>
-                    <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-                        <a href="work-single.html" class="item-wrap fancybox">
+                    <div class="item handpicked col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox" onclick="$('#_invitations').trigger('click');">
                             <div class="work-info">
-                                <h3>Cocooil</h3>
-                                <span>Branding</span>
+                                <h3>Invitation Cards</h3>
+                                <span>Click to see more</span>
                             </div>
-                            <img class="img-fluid" src="assets/img/img_3.jpg">
+                            <img class="img-fluid" src="assets/img/invitations/invitation1.jpg">
                         </a>
                     </div>
-                    <div class="item design col-sm-6 col-md-4 col-lg-4 mb-4">
-                        <a href="work-single.html" class="item-wrap fancybox">
+                    <div class="item handpicked col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox" onclick="$('#_letterings').trigger('click');">
                             <div class="work-info">
-                                <h3>Nike Shoe</h3>
-                                <span>Design</span>
+                                <h3>Letterings</h3>
+                                <span>Click to see more</span>
                             </div>
-                            <img class="img-fluid" src="assets/img/img_4.jpg">
+                            <img class="img-fluid" src="assets/img/letterings/lettering1.jpg">
                         </a>
                     </div>
-                    <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-                        <a href="work-single.html" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <h3>Kitchen Sink</h3>
-                                <span>Photography</span>
-                            </div>
-                            <img class="img-fluid" src="assets/img/img_5.jpg">
+                    <div class="item handpicked col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <img class="img-fluid" src="assets/img/grid_logo.png">
                         </a>
                     </div>
-                    <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-                        <a href="work-single.html" class="item-wrap fancybox">
+                    <div class="item handpicked col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox" onclick="$('#_logos').trigger('click');">
                             <div class="work-info">
-                                <h3>Amazon</h3>
-                                <span>brandingn</span>
+                                <h3>Logo Designs</h3>
+                                <span>Click to see more</span>
                             </div>
-                            <img class="img-fluid" src="assets/img/img_6.jpg">
+                            <img class="img-fluid" src="assets/img/logos/logo1.jpg">
                         </a>
                     </div>
+                    <div class="item handpicked col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox" onclick="$('#_graphics').trigger('click');">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Click to see more</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic1.gif">
+                        </a>
+                    </div>
+                    <div class="item handpicked col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox" onclick="$('#_posters').trigger('click');">
+                            <div class="work-info">
+                                <h3>Poster Designs</h3>
+                                <span>Click to see more</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/posters/poster1.jpg">
+                        </a>
+                    </div>
+                    <div class="item handpicked col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox" onclick="$('#_socials').trigger('click');">
+                            <div class="work-info">
+                                <h3>Socials Designs</h3>
+                                <span>Click to see more</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/socials/social1.jpg">
+                        </a>
+                    </div>
+
+
+                    <div class="item logo col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Branding Logo</h3>
+                                <span>Branding Logo</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/logos/logo1.jpg">
+                        </a>
+                    </div>
+                    <div class="item logo col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Branding Logo</h3>
+                                <span>Branding Logo</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/logos/logo2.jpg">
+                        </a>
+                    </div>
+                    <div class="item logo col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Branding Logo</h3>
+                                <span>Branding Logo</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/logos/logo3.jpg">
+                        </a>
+                    </div>
+                    <div class="item logo col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Branding Logo</h3>
+                                <span>Branding Logo</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/logos/logo4.jpg">
+                        </a>
+                    </div>
+                    <div class="item logo col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Branding Logo</h3>
+                                <span>Branding Logo</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/logos/logo5.jpg">
+                        </a>
+                    </div>
+                    <div class="item logo col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Branding Logo</h3>
+                                <span>Branding Logo</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/logos/logo6.jpg">
+                        </a>
+                    </div>
+                    <div class="item logo col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Branding Logo</h3>
+                                <span>Branding Logo</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/logos/logo7.jpg">
+                        </a>
+                    </div>
+                    <div class="item logo col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Branding Logo</h3>
+                                <span>Branding Logo</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/logos/logo8.jpg">
+                        </a>
+                    </div>
+
+                    <div class="item art col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Digital Art</h3>
+                                <span>Digital Art</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/arts/art1.jpg">
+                        </a>
+                    </div>
+                    <div class="item art col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Digital Art</h3>
+                                <span>Digital Art</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/arts/art2.jpg">
+                        </a>
+                    </div>
+                    <div class="item art col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Digital Art</h3>
+                                <span>Digital Art</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/arts/art3.jpg">
+                        </a>
+                    </div>
+                    <div class="item art col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Digital Art</h3>
+                                <span>Digital Art</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/arts/art4.jpg">
+                        </a>
+                    </div>
+                    <div class="item art col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Digital Art</h3>
+                                <span>Digital Art</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/arts/art5.jpg">
+                        </a>
+                    </div>
+                    <div class="item art col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Digital Art</h3>
+                                <span>Digital Art</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/arts/art6.jpg">
+                        </a>
+                    </div>
+                    <div class="item art col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Digital Art</h3>
+                                <span>Digital Art</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/arts/art7.jpg">
+                        </a>
+                    </div>
+                    <div class="item art col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Digital Art</h3>
+                                <span>Digital Art</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/arts/art8.jpg">
+                        </a>
+                    </div>
+                    <div class="item art col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Digital Art</h3>
+                                <span>Digital Art</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/arts/art9.jpg">
+                        </a>
+                    </div>
+                    <div class="item art col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Digital Art</h3>
+                                <span>Digital Art</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/arts/art10.jpg">
+                        </a>
+                    </div>
+
+                    <div class="item lettering col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Lettering</h3>
+                                <span>Lettering</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/letterings/lettering1.jpg">
+                        </a>
+                    </div>
+                    <div class="item lettering col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Lettering</h3>
+                                <span>Lettering</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/letterings/lettering2.jpg">
+                        </a>
+                    </div>
+                    <div class="item lettering col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Lettering</h3>
+                                <span>Lettering</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/letterings/lettering3.jpg">
+                        </a>
+                    </div>
+                    <div class="item lettering col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Lettering</h3>
+                                <span>Lettering</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/letterings/lettering4.jpg">
+                        </a>
+                    </div>
+                    <div class="item lettering col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Lettering</h3>
+                                <span>Lettering</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/letterings/lettering5.jpg">
+                        </a>
+                    </div>
+                    <div class="item lettering col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Lettering</h3>
+                                <span>Lettering</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/letterings/lettering6.jpg">
+                        </a>
+                    </div>
+                    <div class="item lettering col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Lettering</h3>
+                                <span>Lettering</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/letterings/lettering7.jpg">
+                        </a>
+                    </div>
+
+                    <div class="item graphic col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic1.gif">
+                        </a>
+                    </div>
+                    <div class="item graphic col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic2.gif">
+                        </a>
+                    </div>
+                    <div class="item graphic col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic3.gif">
+                        </a>
+                    </div>
+                    <div class="item graphic col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic4.gif">
+                        </a>
+                    </div>
+                    <div class="item graphic col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic5.gif">
+                        </a>
+                    </div>
+                    <div class="item graphic col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic6.gif">
+                        </a>
+                    </div>
+                    <div class="item graphic col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic7.gif">
+                        </a>
+                    </div>
+                    <div class="item graphic col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic8.gif">
+                        </a>
+                    </div>
+                    <div class="item graphic col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic9.gif">
+                        </a>
+                    </div>
+                    <div class="item graphic col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic10.gif">
+                        </a>
+                    </div>
+                    <div class="item graphic col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic11.gif">
+                        </a>
+                    </div>
+                    <div class="item graphic col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic12.gif">
+                        </a>
+                    </div>
+                    <div class="item graphic col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic13.gif">
+                        </a>
+                    </div>
+                    <div class="item graphic col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic14.gif">
+                        </a>
+                    </div>
+                    <div class="item graphic col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Motion Graphics</h3>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graphics/graphic15.gif">
+                        </a>
+                    </div>
+
+                    <div class="item poster col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#poster1" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Marketing</h3>
+                                <span>Marketing</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/posters/poster1.jpg">
+                        </a>
+                    </div>
+                    <div class="item poster col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#poster2" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Marketing</h3>
+                                <span>Marketing</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/posters/poster2.jpg">
+                        </a>
+                    </div>
+                    <div class="item poster col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#poster3" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Marketing</h3>
+                                <span>Marketing</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/posters/poster3.jpg">
+                        </a>
+                    </div>
+                    <div class="item poster col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#poster4" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Marketing</h3>
+                                <span>Marketing</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/posters/poster4.jpg">
+                        </a>
+                    </div>
+                    <div class="item poster col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#poster5" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Marketing</h3>
+                                <span>Marketing</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/posters/poster5.jpg">
+                        </a>
+                    </div>
+                    <div class="item poster col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#poster6" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Marketing</h3>
+                                <span>Marketing</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/posters/poster6.jpg">
+                        </a>
+                    </div>
+                    <div class="item poster col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#poster7" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Marketing</h3>
+                                <span>Marketing</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/posters/poster7.jpg">
+                        </a>
+                    </div>
+
+
+                    <div class="item invitation col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Invitation</h3>
+                                <span>Invitation</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/invitations/invitation1.jpg">
+                        </a>
+                    </div>
+                    <div class="item invitation col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Invitation</h3>
+                                <span>Invitation</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/invitations/invitation2.jpg">
+                        </a>
+                    </div>
+
+
+                    <div class="item _social col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Social</h3>
+                                <span>Social</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/socials/social1.jpg">
+                        </a>
+                    </div>
+                    <div class="item _social col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Social</h3>
+                                <span>Social</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/socials/social2.jpg">
+                        </a>
+                    </div>
+                    <div class="item _social col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Social</h3>
+                                <span>Social</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/socials/social3.jpg">
+                        </a>
+                    </div>
+                    <div class="item _social col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Social</h3>
+                                <span>Social</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/socials/social4.jpg">
+                        </a>
+                    </div>
+                    <div class="item _social col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Social</h3>
+                                <span>Social</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/socials/social5.jpg">
+                        </a>
+                    </div>
+
+
+                    <div class="item apparel col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Apparel</h3>
+                                <span>Apparel</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/apparels/apparel1.jpg">
+                        </a>
+                    </div>
+                    <div class="item apparel col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Apparel</h3>
+                                <span>Apparel</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/apparels/apparel2.jpg">
+                        </a>
+                    </div>
+                    <div class="item apparel col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Apparel</h3>
+                                <span>Apparel</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/apparels/apparel3.jpg">
+                        </a>
+                    </div>
+                    <div class="item apparel col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Apparel</h3>
+                                <span>Apparel</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/apparels/apparel4.jpg">
+                        </a>
+                    </div>
+                    <div class="item apparel col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap fancybox">
+                            <div class="work-info">
+                                <h3>Apparel</h3>
+                                <span>Apparel</span>
+                            </div>
+                            <img class="img-fluid" src="assets/img/apparels/apparel5.jpg">
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </section>
+
+        <!-- Onclick Zooming -->
+        <div class="lightbox-target" id="poster1">
+            <img src="assets/img/posters/poster1_big.jpg" loading="lazy" />
+            <a class="lightbox-close" href="#"></a>
+        </div>
+        <div class="lightbox-target" id="poster2">
+            <img src="assets/img/posters/poster2_big.jpg" loading="lazy" />
+            <a class="lightbox-close" href="#"></a>
+        </div>
+        <div class="lightbox-target" id="poster3">
+            <img src="assets/img/posters/poster3_big.jpg" loading="lazy" />
+            <a class="lightbox-close" href="#"></a>
+        </div>
+        <div class="lightbox-target" id="poster4">
+            <img src="assets/img/posters/poster4_big.jpg" loading="lazy" />
+            <a class="lightbox-close" href="#"></a>
+        </div>
+        <div class="lightbox-target" id="poster5">
+            <img src="assets/img/posters/poster5_big.jpg" loading="lazy" />
+            <a class="lightbox-close" href="#"></a>
+        </div>
+        <div class="lightbox-target" id="poster6">
+            <img src="assets/img/posters/poster6_big.jpg" loading="lazy" />
+            <a class="lightbox-close" href="#"></a>
+        </div>
+        <div class="lightbox-target" id="poster7">
+            <img src="assets/img/posters/poster7_big.jpg" loading="lazy" />
+            <a class="lightbox-close" href="#"></a>
+        </div>
+        <!-- End -->
+
         <!-- End  Works Section -->
 
         <!-- ======= Testimonials Section ======= -->
-        <section class="section pt-0">
+        <!-- <section class="section pt-0">
             <div class="container">
 
                 <div class="owl-carousel testimonial-carousel">
@@ -186,7 +791,7 @@
                 </div>
 
             </div>
-        </section>
+        </section> -->
         <!-- End Testimonials Section -->
 
     </main>
@@ -209,10 +814,11 @@
                     </div>
                 </div>
                 <div class="col-sm-6 social text-md-right">
-                    <a href="#"><span class="icofont-twitter"></span></a>
-                    <a href="#"><span class="icofont-facebook"></span></a>
-                    <a href="#"><span class="icofont-dribbble"></span></a>
-                    <a href="#"><span class="icofont-behance"></span></a>
+                    <a href="#"><span class="icofont-instagram"></span></a>
+                    <a href="assets/img/ecard.png" download="airadesigns_card.png" target="_blank"><span class="icofont-card"></span></a>
+                    <!--<a href="#"><span class="icofont-facebook"></span></a>
+                    <a href="#"><span class="icofont-google-plus"></span></a>-->
+                    <a href="#" class="back-to-top"><span class="icofont-bubble-up icofont-2x"></span></a>
                 </div>
             </div>
         </div>
